@@ -1,0 +1,32 @@
+{
+  "_comentario": "modo: 'implementada' (integração real testada), 'simulada' (resultados fictícios) ou 'pendente' (aguardando configuração). tipo: 'certidao' ou 'consulta'. Para adicionar um serviço, inclua um novo objeto na lista.",
+  "servicos": [
+    {"id": "receita_federal", "nome": "Receita Federal", "nome_curto": "Receita Federal", "orgao": "Receita Federal do Brasil", "tipo": "certidao",
+     "url": "https://servicos.receitafederal.gov.br/servico/certidoes/#/home/cnpj", "modo": "implementada",
+     "escopo": "Certidões federais (débitos e dívida ativa da União)", "observacoes": ""},
+    {"id": "cgu", "nome": "Controladoria-Geral da União", "nome_curto": "CGU", "orgao": "CGU", "tipo": "certidao",
+     "url": "https://certidoes.cgu.gov.br/", "modo": "implementada",
+     "escopo": "Certidões/consultas para pessoas jurídicas (resultados separados por tipo)", "observacoes": "Não presumir documento único."},
+    {"id": "cndt", "nome": "Débitos Trabalhistas — CNDT", "nome_curto": "CNDT", "orgao": "Tribunal Superior do Trabalho", "tipo": "certidao",
+     "url": "https://cndt-certidao.tst.jus.br/", "modo": "implementada",
+     "escopo": "Certidão Negativa de Débitos Trabalhistas", "observacoes": "Diferenciar emissão, não emitida e falha técnica."},
+    {"id": "sefaz_ba", "nome": "Débitos Tributários — SEFAZ Bahia", "nome_curto": "SEFAZ-BA", "orgao": "SEFAZ Bahia", "tipo": "certidao",
+     "url": "https://servicos.sefaz.ba.gov.br/sistemas/DSCRE/Modulos/Publico/EmissaoCertidao.aspx", "modo": "implementada",
+     "escopo": "Certidão de débitos tributários estaduais", "observacoes": "Dados complementares: pedir ao usuário."},
+    {"id": "comprasnet_ba", "nome": "ComprasNet Bahia — Penalidades", "nome_curto": "ComprasNet BA", "orgao": "Governo do Estado da Bahia", "tipo": "consulta",
+     "url": "https://www.comprasnet.ba.gov.br/inter/system/Fornecedor/FornecedorComPenalidade.asp", "modo": "implementada",
+     "escopo": "Consulta de fornecedores com penalidades (não é certidão de regularidade)", "observacoes": "Ausência de ocorrências não comprova regularidade."},
+    {"id": "tjba_fornecedores", "nome": "TJBA — Fornecedores sancionados", "nome_curto": "TJBA Sancionados", "orgao": "Tribunal de Justiça da Bahia", "tipo": "consulta",
+     "url": "https://www7.tjba.jus.br/pjlcnet/relatorio/fornecedores_sancionados.wsp", "modo": "implementada",
+     "escopo": "Consulta de fornecedores sancionados (não é certidão negativa)", "observacoes": "Usar apenas filtros reais."},
+    {"id": "caixa_fgts", "nome": "Caixa — Regularidade do FGTS", "nome_curto": "FGTS/CAIXA", "orgao": "Caixa Econômica Federal", "tipo": "certidao",
+     "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf", "modo": "implementada",
+     "escopo": "Certificado de Regularidade do FGTS (CRF)", "observacoes": "Sucesso só se o certificado for obtido."},
+    {"id": "tcu_inidoneos", "nome": "TCU — Certidão de Inidôneos", "nome_curto": "TCU", "orgao": "Tribunal de Contas da União", "tipo": "certidao",
+     "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-inidoneos", "modo": "implementada",
+     "escopo": "Certidão de inidôneos (escopo restrito)", "observacoes": ""},
+    {"id": "tjba_primeiro_grau", "nome": "TJBA — Certidão de 1º Grau", "nome_curto": "TJBA 1º Grau", "orgao": "Tribunal de Justiça da Bahia", "tipo": "certidao",
+     "url": "https://portalcertidoes.tjba.jus.br/#/primeirograu", "modo": "implementada",
+     "escopo": "Certidões judiciais de 1º grau para pessoas jurídicas", "observacoes": "CNPJ isolado pode não bastar."}
+  ]
+}

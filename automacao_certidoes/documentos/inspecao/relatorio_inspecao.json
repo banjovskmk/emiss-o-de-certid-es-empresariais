@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cndt",
+    "nome": "Débitos Trabalhistas — CNDT",
+    "orgao": "Tribunal Superior do Trabalho",
+    "url": "https://cndt-certidao.tst.jus.br/",
+    "tipo": "Emissão de certidão",
+    "http": {
+      "id": "cndt",
+      "nome": "Débitos Trabalhistas — CNDT",
+      "url_configurada": "https://cndt-certidao.tst.jus.br/",
+      "http_ok": true,
+      "http_status": 200,
+      "url_final": "https://cndt-certidao.tst.jus.br/",
+      "tempo_ms": 306,
+      "titulo_html": "Certidão Negativa de Débitos Trabalhistas",
+      "tamanho_bytes": 1746,
+      "ssl_valido": true,
+      "redirected": false,
+      "captchas_detectados": [],
+      "campos_cnpj_sugeridos": [],
+      "erro": null
+    },
+    "browser": null
+  }
+]

@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.perfil-navegador/
+data/*.sqlite3
+logs/*.log

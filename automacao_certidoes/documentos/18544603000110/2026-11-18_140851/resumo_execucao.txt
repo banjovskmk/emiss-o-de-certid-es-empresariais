@@ -1,0 +1,18 @@
+REGISTRO INTERNO DA APLICAÇÃO — não é documento oficial de nenhum órgão.
+
+Execução: 20261118-140851-c2dee9
+CNPJ: 18.544.603/0001-10
+Início: 18/11/2026 14:08:51
+Término: 18/11/2026 14:09:53
+
+Processamento finalizado: 3 itens selecionados, 2 certidões emitidas e 1 erro.
+
+Itens:
+- Controladoria-Geral da União | Emissão de certidão | Erro
+    Erro inesperado: Locator.count: Target page, context or browser has been closed
+- TCU — Certidão de Inidôneos | Emissão de certidão | Documento emitido
+    Certidão do TCU baixada do portal oficial.
+    Arquivo (documento oficial): C:\Users\rfmcruz\Documents\Automações\teste22\automacao_certidoes1.2\automacao_certidoes\documentos\18544603000110\2026-11-18_140851\certidao_tcu_18544603000110.pdf
+- TJBA — Certidão de 1º Grau | Emissão de certidão | Documento emitido
+    Certidão Judicial de 1º Grau do TJBA emitida e salva com sucesso.
+    Arquivo (documento oficial): C:\Users\rfmcruz\Documents\Automações\teste22\automacao_certidoes1.2\automacao_certidoes\documentos\18544603000110\2026-11-18_140851\certidao_tjba_1grau_18544603000110.pdf
